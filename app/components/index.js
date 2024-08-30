@@ -39,8 +39,7 @@ import UncontrolledModal from './UncontrolledModal';
 import UncontrolledPopover from './UncontrolledPopover';
 import UncontrolledTabs from './UncontrolledTabs';
 import Wizard from './Wizard';
-
-// Export non-overridden Reactstrap components
+// Export non overriden Reactstrap components
 export {
     Alert,
     Badge,
@@ -114,10 +113,9 @@ export {
     UncontrolledCollapse,
     UncontrolledTooltip
 } from 'reactstrap';
-
-// Export VidyaAssist specific components
 export {
     Accordion,
+    //App,
     Avatar,
     AvatarAddOn,
     Card,
