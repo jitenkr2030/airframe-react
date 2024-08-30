@@ -133,5 +133,7 @@ module.exports = {
     },
     host: "0.0.0.0",
     port: 4100,
+    disableHostCheck: true,  // Bypass the host header check
+    allowedHosts: ['.gitpod.io'],  // Allow connections from Gitpod URLs
   },
 };
